@@ -5,3 +5,4 @@ sympy
 flake8
 pytest
 functools
+python>3.9
