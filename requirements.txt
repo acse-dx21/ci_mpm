@@ -4,4 +4,4 @@ matplotlib
 sympy
 flake8
 pytest
-
+functools

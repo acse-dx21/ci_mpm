@@ -1,4 +1,4 @@
-from functools import cache
+from functools import lru_cache
 import functools
 __all__ = ['my_sum',"factorial"]
 
@@ -8,6 +8,6 @@ def my_sum(iterable):
     for i in iterable:
         tot += i
     return tot
-@cache
+@lru_cache(maxsize=None)
 def factorial(n):
     return n * factorial(n-1) if n else 1
