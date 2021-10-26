@@ -1,5 +1,4 @@
 from functools import lru_cache
-import functools
 
 __all__ = ['my_sum', "factorial"]
 
